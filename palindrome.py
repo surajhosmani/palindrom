@@ -3,7 +3,7 @@ def check_palindrome(text):
 
 
 if __name__ == "__main__":
-    text = input("Enter a string: ")
+    text = "madam"   # no input()
     if check_palindrome(text):
         print("The string is a Palindrome")
     else:
