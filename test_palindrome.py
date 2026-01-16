@@ -1,4 +1,5 @@
-from palindrome import is_palindrome
+from palindrome import check_palindrome
+
 
 def test_is_palindrome():
-    assert is_palindrome("madam") == True
+    assert check_palindrome("madam") is True
